@@ -7,7 +7,7 @@ const getRandomInt = (min, max) => {
 };
 
 
-const checkString =  (text, textLength) => {
-  return text.length <= textLength;
+const checkString =  (text, count) => {
+  return text.length <= count;
 };
 
