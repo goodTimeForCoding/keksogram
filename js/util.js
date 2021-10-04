@@ -35,5 +35,10 @@ const makeUniqueRandomIntegerGenerator = (min, max) => {
   };
 };
 
+//закрываем окно принажатии ESC
+const isEscEvent = (evt) => {
+  return evt.key === 'Escape' || evt.key === 'Esc';
+};
 
-export {getRandomInt, checkString, getRandomElementArr, makeUniqueRandomIntegerGenerator}
+
+export {getRandomInt, checkString, getRandomElementArr, makeUniqueRandomIntegerGenerator, isEscEvent}

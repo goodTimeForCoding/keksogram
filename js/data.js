@@ -14,7 +14,7 @@ const AvatarsIndex = {
 
 const Comments = {
   MIN: 1,
-  MAX: 5,
+  MAX: 10,
 };
 
 const descriptions = [
