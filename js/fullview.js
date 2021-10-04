@@ -39,7 +39,7 @@ const addComments = (comments) => {
 const onBigPictureCloseClick = () => {
   bigPicture.classList.add('hidden');
   body.classList.remove('modal-open');
-
+  crossBtn.removeEventListener('click', onBigPictureCloseClick);
   commentsList.innerHTML = '';
 }
 
