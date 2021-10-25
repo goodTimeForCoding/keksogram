@@ -88,7 +88,3 @@ const addPhotos = () => {
     });
   }
 };
-addPhotos();
-
-
-export default photos;
