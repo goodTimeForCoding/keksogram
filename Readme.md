@@ -8,7 +8,6 @@
 
 - скачиваем репозиторий;
 - устанавливаем необходимые пакеты: *npm install*;
-- устанавливаем лоадеры: *npm install style-loader --save* и *npm install css-loader --save*
 - запускаем сборку: *npm run build*;
 - запускаем проект: *npm start*;
 ---
