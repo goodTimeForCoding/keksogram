@@ -19,12 +19,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "nouislider": "15.4.0"
+    "css-loader": "6.5.1",
+    "nouislider": "15.4.0",
+    "style-loader": "3.3.1"
   },
   "scripts": {
     "build": "webpack --mode production",
     "start": "browser-sync start --server \"build/\" --files \"build/js/**/*.js\"",
-    "test": "eslint js/"
+    "test": "eslint source/js/"
   },
   "engines": {
     "node": ">=12.0.0"
